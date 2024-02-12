@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #088178;
+    font-family: sans-serif;
+  }
+ 
+  .signup-box {
+    margin-top: 25%;
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .signup-box h2 {
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-box {
+    position: relative;
+    margin-bottom: 20px;
+  
+  }
+  
+  .user-box input {
+    width: 150%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+  }
+  .user-box input:focus {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(246, 219, 219);
+  }
+  
+  .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .user-box input:focus ~ label,
+  .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: white;
+    font-size: 12px;
+  }
+  
+  #submit-btn {
+    width: 70%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #0f1b27;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  #submit-btn:hover {
+    background: #0ee3d5;
+    color: #fff;
+  }
+  
+  @media (max-width:767px) {
+    .signup-box {
+      width: 50%;
+      position: absolute;
+      top:250px;
+      left: 35%;
+      transform: translate(-50%, -50%);
+      color: white;
+  
+    }
+  }

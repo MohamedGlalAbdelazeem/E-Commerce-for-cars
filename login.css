@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #088178;
+  font-family: sans-serif;
+}
+
+.login-box {
+    margin-top: 25%;
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  color: white;
+}
+
+.login-box h2 {
+    color: aliceblue;
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 30px;
+}
+
+.user-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.user-box input {
+  width: 150%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  color: white;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: white;
+  font-size: 12px;
+}
+ 
+button{
+    padding: 4px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+@media (max-width:767px) {
+  .login-box {
+    width: 60%;
+    transform: translate(-73%, 17%) !important;
+    color: white;
+    -webkit-transform: translate(-73%, 17%) !important;
+    -moz-transform: translate(-73%, 17%) !important;
+    -ms-transform: translate(-73%, 17%) !important;
+    -o-transform: translate(-73%, 17%) !important;
+}
+  
+}

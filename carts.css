@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contaner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#08817993;
+    gap: 3rem;
+}
+h1{
+   margin-top: 50px;
+  
+}
+#contaner .contaner1{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+#contaner .contaner2 .info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: beige;
+    padding: 10px;
+    max-height: 30vh;
+}
+#contaner .contaner2 .info input{
+   padding: 10px;
+   text-align: center;
+   background-color: beige;
+}
+#contaner .contaner2 .pay{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: beige;
+    padding: 10px;
+}
+#contaner .contaner2 .pay .pay-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contaner .contaner2 .pay button{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(7, 223, 7);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .section-footer {
+    box-shadow: 0 0 0.8rem #088178;
+    background-color: #eee;
+    margin-top: 50px;
+    display: flex;
+}

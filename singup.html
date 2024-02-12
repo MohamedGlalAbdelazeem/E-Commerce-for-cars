@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="singup.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SingUp🔑</title>
+</head>
+<body>
+ 
+ 
+  <section id="header">
+    <a href="home.html"><img src="./imges/ll.png"class="logo"alt="photo-logo"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="singup.html"target="_self">SingUp</a></li>
+        </ul>
+    </div>
+
+    <div class="signup-box">
+      <h2>Signup</h2>
+      <form novalidate>
+        <div class="user-box">
+          <input type="text" required id="userName">
+          <label>Username</label>
+        </div>
+        <div class="user-box">
+          <input type="email" required id="email">
+          <label>Email</label>
+        </div>
+        <div class="user-box">
+          <input type="password" required id="password">
+          <label>Password</label>
+        </div>
+        <div class="user-box">
+          <input type="password"  required id="confirm-password">
+          <label>Confirm Password</label>
+        </div>
+        <button type="submit" id="submit-btn">Signup</button>
+      </form>
+    </div>
+
+    
+    <script src="singup.js"></script>
+</body>
+</html>
